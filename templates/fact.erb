@@ -1,5 +1,5 @@
 # This file is being maintained by Puppet.
 # DO NOT EDIT
-<% facts_hash.each do |key,value| -%>
+<% facts_hash.sort.each do |key,value| -%>
 <%= key %>=<%= value %>
 <% end -%>
